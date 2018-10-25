@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.41, maximum-scale=1" />
+    <meta name="viewport" content="width=600" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="w3.css">
+    <title>portfolio</title>
+    <style>
+        *{
+            box-sizing:border-box;         
+        }
+       
+body{ 
+  padding: 0;
+  margin: 0
+}
+        #container{
+            width: 100%;
+        }
+
+.navbar{
+   
+     display: flex;
+    justify-content:flex-end;
+    background: rgb(162, 240, 240);
+    list-style-type: none;
+    padding-top: 20px;
+    margin-top: 0px;
+    height: 57px;
+    position: fixed;
+    width: 100%;
+}
+.navbar a{
+
+   padding-right: 100px;
+   text-decoration: none;
+   background-color: rgb(162, 240, 240);
+   color: cadetblue;
+
+    
+}
+/*intro*/
+.intro{
+    margin-left:auto;
+    text-align: center;
+    height: 550px;
+    max-width: 100%;
+    background: #333333 ;
+    color:gold;
+    
+}
+.intro-content{
+   
+    padding-top: 272px;
+    text-align: center;
+    
+}
+/*work*/
+#work{
+    text-align: center;
+    color:darkcyan;
+}
+.section-1 ,.section-2{
+    display: flex;
+    justify-content: space-around;
+    padding-top:50px;
+}
+.img-work{ 
+    width: 200px;
+    height:200px;
+}
+.work-btn{
+    margin: 20px;
+    background:lightyellow;
+  
+    
+}
+.work-btn a{
+    text-decoration: none; 
+    color:cornflowerblue;
+   
+    border: 2px solid rgb(162, 240, 240);
+    box-shadow: none;
+}
+.show-btn{
+    margin: 30px;
+
+}
+.show-btn a{
+    border: 1px solid teal;
+    text-decoration: none;
+    padding: 22px;
+    border-radius: 70%;
+}
+/*work-together*/
+.work-together{
+    padding: 30px;
+    text-align:center;
+   
+    background-color:burlywood;
+}
+.work-together p{
+   margin-top: 0px;
+   padding-top:0px;
+    
+}
+.part-1 {
+   display: flex;
+   justify-content: space-between;
+   padding:30px; 
+}
+
+.part-1 a{
+    
+    border: 1px solid dimgray;
+border-radius: 5px;
+    padding: 5px;
+
+
+    text-decoration: none;
+    color:teal;
+    background: lightblue;
+
+}
+
+/*footer*/
+#footer{
+    text-align:center;
+    background:teal;
+}
+#footer{
+   margin:0px;
+   padding: 30px;
+
+}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <!--navabr-->
+        <nav> 
+        <ul class="navbar">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        </nav>
+     <!--intro-->
+     <div class="intro">
+         <div class="intro-content">
+         <h2>hi i'm moh nabawy</h2><br>
+         <p >a front end web developer</p>
+         
+        </div>
+    </div>
+
+<!--work-->
+<div id="work">
+    <h2>These are some of my projects..</h2>
+    <div class="section-1">
+        <a href="#"><img class="img-work" src="7cd6a0c4-6171-11e6-87fb-915f6084d104.png" alt=""></a>
+        <a href=""><img class="img-work" src="7d02406c-6171-11e6-8c79-40a2933163dc.png" alt=""></a>
+        <a href=""><img class="img-work" src="7d08cb94-6171-11e6-8c45-22e7cf64683e.png" alt=""></a>
+    </div>
+    <div class="section-2">
+        <img class="img-work" src="7d091806-6171-11e6-8d47-ecf2f2833fe2.png" alt="">
+        <img class="img-work" src="7d354304-6171-11e6-8b56-66eee4681d88.png" alt="">
+        <img class="img-work" src="d084d718-6171-11e6-83fa-ede5d0a67ad2 (1).png" alt="">
+    </div>
+    <div class="show-btn">
+      
+            <a href="#">Show all</a>
+       
+    </div>
+   
+
+</div>
+<!--wrokn together-->
+<div class="work-together">
+    <h2>Let's work together...</h2><br>
+    <p>How do you take your coffee?</p>
+<div class="part-1">
+    <a href="#">facebook</a>
+    <a href="#">github</a>
+    <a href="#">twitter</a>
+    <a href="#">send a mail</a>
+    <a href="#">call me</a>
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<footer id="footer">
+    <p>**This is just a fake portfolio.. All the projects and contact details given are not real..</p><br>
+    <p>© Created for FreeCodeCamp</p>
+</footer>
+</div>
+    
+</body>
+</html>

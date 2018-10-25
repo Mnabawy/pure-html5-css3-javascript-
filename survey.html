@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>survey form</title>
+    <style>
+*{
+    box-sizing: border-box; 
+    
+}
+html{
+    background: lightgray;
+}
+@media (max-width:700px) {
+    .form{
+        display: contents;
+        padding: 10px;  
+}
+    
+    
+}
+
+.form{
+    color: rgb(90, 89, 88);
+    padding-top: 10px;
+    padding-bottom: 30px;
+    width: 80%;
+    margin: auto;
+    background: #DBFFEE; 
+}
+.box1{
+    display: flex;
+    justify-content:center  ;
+    margin: 10px;
+    width: auto;
+}
+.num1{
+    margin-left: -41px;
+}
+.how-likly{
+    margin-left: -71px;
+}
+.what-do{
+    margin-left: -34px;
+}
+.things-that{
+    margin-left: 31px;
+}
+.any-comm{
+    margin-left: 106px;
+}
+.nea{
+    padding-left: 234px;
+    padding-right: 10px;
+
+}
+.survey{
+    text-align: center;
+    font-size: 30px;
+}
+.intro{
+    text-align: center;
+}
+.label{
+    width: 300px;
+    text-align: right;
+    
+     
+}
+.btn{
+    margin-left: 50%;
+}
+    </style>
+</head>
+<body>
+       <p class="survey">Survey Form</p>
+        <div class="container">
+            <div class="form">
+             
+            <form >
+                <p class="intro">
+                        Let us know how we can improve freeCodeCamp
+                </p>
+             <div class="box1">
+                 <div class="label">
+                 <label class="nea"> Name:  </label>   
+                </div>
+                 <div class="input">
+                        <input type="text" class="input"><br>
+                  </div>      
+            </div>
+            <div class="box1">
+                <div class="label">
+               <label class="nea">Email: </label>
+               </div>
+               <div class="input">
+                        <input type="email" class="input"><br>
+                </div>        
+            </div>
+            <div class="box1">
+                    <div class="label">
+                    <label class="nea">Age:</label>  
+                    </div>
+                    <div class="input">  
+                    <input type="number"class="input"><br>
+                    </div>
+            </div>
+  <div class="box1 num1">
+            <div class="label">
+                <label>Which option best describes your current role?</label>
+            </div>
+            <div class="input">
+                <select>
+                    <option value="0" disabled >select an option</option>
+                    <option value="1">student</option>
+                    <option value="2">full time jop</option>
+                    <option value="3">full time learner</option>
+                    <option value="4">prfer not to say</option>
+                    <option value="5">other</option>
+                </select>
+            </div>
+    </div>
+    <div class="box1 how-likly">
+        <div class="label">
+                <label class="label" >* How likely is that you would recommend freeCodeCamp to a friend?</label>
+        </div>
+        <div class="input">
+                <input type="checkbox" >
+                <label class="label">Definitely</label><br>
+                <input type="checkbox" >
+                <label class="label">Maybe</label><br>
+                <input type="checkbox" >
+                <label class="label">Not sure</label><br>
+        </div>
+    </div>
+<div class="box1 what-do">
+    <div class="label">
+                <label >What do you like most in FCC:</label>
+    </div>
+    <div class="input">
+                <select>
+                    <option value="">select an option</option>
+                    <option value="">chalenges</option>
+                    <option value="">projects</option>
+                    <option value="">community</option>
+                    <option value="">open source</option>
+                </select>
+    </div>
+    </div>
+            <div class="box1 things-that">
+                <div class="label">
+                <label >Things that should be improved in the future
+                    (Check all that apply):</label>
+                </div>
+                <div class="input">
+                    <input type="checkbox" >
+                    <label class="label">Front-end Projects</label><br>
+                    <input type="checkbox" >
+                    <label class="label">Back-end Projects</label><br>
+                    <input type="checkbox" >
+                    <label class="label">Data Visualization</label><br>
+                    <input type="checkbox" >
+                    <label class="label">Challenges</label><br>
+                    <input type="checkbox" >
+                    <label class="label">Open Source Community</label><br>
+                    <input type="checkbox" >
+                    <label class="label">Gitter help rooms</label><br>
+                    <input type="checkbox" >
+                    <label class="label">Videos</label><br>
+                    <input type="checkbox" >
+                    <label class="label">City Meetups</label><br>
+                    <input type="checkbox" >
+                    <label class="label">Wiki</label><br>
+                    <input type="checkbox" >
+                    <label class="label">Forum</label><br>
+                    <input type="checkbox" >
+                    <label class="label">Additional Courses</label><br>
+                   </div>
+            </div>
+                     <div class="box1 any-comm">
+                         <div class="label">
+                      <label >Any Comments or Suggestions?</label>
+                     </div>
+                     <div class="input">
+                    <textarea  cols="30" rows="3" class="text-area"></textarea>
+                    </div>
+                </div>
+                   
+    
+    
+            </form>
+             <button class="btn">submit</button>
+        </div>
+        </div>
+    </body>
+    </html>
